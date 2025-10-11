@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | AI Community Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="assets/logo.png" alt="AI Community Hub Logo" />
+        <span>AI Community Hub</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url('assets/images/contact-bg.jpg') center/cover no-repeat;">
+    <div class="hero-content">
+      <h1>Get in Touch</h1>
+      <p>Have ideas, feedback, or questions? We’d love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT FORM ===== -->
+  <main style="max-width:700px; margin:60px auto; padding:20px;">
+    <form class="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="you@example.com" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" placeholder="Share your thoughts..." required></textarea>
+
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 AI Community Hub. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">Twitter</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
