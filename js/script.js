@@ -1,2 +1,2 @@
-// Placeholder for future JavaScript functionality
-console.log("AI Community JS loaded successfully!");
+// Placeholder for future interactive AI features
+console.log("AI Community JS loaded!");
