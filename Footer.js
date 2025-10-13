@@ -1,0 +1,1 @@
+export default function Footer(){ return (<footer className='bg-slate-900 text-slate-300 py-6 mt-12'><div className='container flex flex-col md:flex-row justify-between items-center'><p>© {new Date().getFullYear()} AI Community Hub</p><p className='text-sm opacity-80'>Built with free tools — Next.js, Tailwind, Matrix</p></div></footer>) }

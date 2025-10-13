@@ -1,0 +1,1 @@
+export default function ResourceCard({title, desc, link}){ return (<a className='block p-4 rounded-lg bg-white/3 hover:bg-white/6 transition' href={link} target='_blank' rel='noreferrer'><h3 className='font-semibold'>{title}</h3><p className='text-sm opacity-80 mt-1'>{desc}</p></a>) }

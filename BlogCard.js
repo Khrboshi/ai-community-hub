@@ -1,0 +1,1 @@
+export default function BlogCard({title, excerpt, link}){ return (<a className='block p-4 rounded-lg bg-white/3 hover:scale-105 transform transition' href={link||'#'}><h3 className='font-semibold'>{title}</h3><p className='text-sm opacity-80 mt-2'>{excerpt}</p></a>) }
