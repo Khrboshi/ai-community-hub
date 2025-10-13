@@ -1,6 +1,6 @@
 {
   "name": "ai-community-hub",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,6 +12,6 @@
     "next": "14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@vercel/ai": "^1.0.0"
+    "ai": "^5.0.68"
   }
 }
