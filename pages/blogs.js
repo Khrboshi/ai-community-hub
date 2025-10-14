@@ -15,14 +15,13 @@ export async function getStaticProps() {
     return {
       ...data,
       slug: filename.replace(".md", ""),
-      // Ensure safe fallback if content is undefined
       summary: content ? content.split(" ").slice(0, 30).join(" ") + "..." : "",
     };
   });
 
   return {
     props: {
-      posts: posts.filter((post) => post.title), // filter out invalid posts
+      posts: posts.filter((post) => post.title),
     },
   };
 }
